@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/favicon.ico">
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <p>Some text here.</p>
+      <form class="search-form" action="index.html" method="post">
+        <input type="text" name="search" value="" placeholder="Enter a location">
+        <button type="submit" name="submit-btn">Search</button>
+      </form>
+
+      <p id="msg-1"></p>
+      <p id="msg-2"></p>
+    </div>
+
+    {{>footer}}
+
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
