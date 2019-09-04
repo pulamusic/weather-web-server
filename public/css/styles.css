@@ -39,6 +39,10 @@ header a:hover {
   font-size: 21px;
 }
 
+#about a {
+  text-decoration: none;
+}
+
 .portrait {
   width: 250px;
 }
